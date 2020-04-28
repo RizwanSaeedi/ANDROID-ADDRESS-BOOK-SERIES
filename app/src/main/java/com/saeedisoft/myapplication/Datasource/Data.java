@@ -10,7 +10,7 @@ public class Data {
 
     public static List<ContactModel> getContactList() {
         if (contactList == null) {
-            //D
+
             contactList = new ArrayList<>();
         }
         return contactList;
