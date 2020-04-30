@@ -1,5 +1,7 @@
 package com.saeedisoft.myapplication.Models;
 
+import androidx.annotation.NonNull;
+
 public class ContactModel {
     // data memebers
     String name;
@@ -42,5 +44,16 @@ public class ContactModel {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    @NonNull
+    @Override
+    public String toString() {
+        String output = "";
+        output += "Name : " + this.name + "\n" ;
+        output += "Mob : " + this.mob + "\n" ;
+        output += "Address : " + this.address + "\n" ;
+
+        return output;
     }
 }

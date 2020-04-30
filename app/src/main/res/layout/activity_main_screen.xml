@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnAddContact"
+        android:layout_width="150dp"
+        android:text="Add Contact"
+        android:layout_height="wrap_content"></Button>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/btnAllContacts"
+        android:layout_width="150dp"
+        android:text="All Contacts"
+        android:layout_height="wrap_content"></Button>
+</LinearLayout>
